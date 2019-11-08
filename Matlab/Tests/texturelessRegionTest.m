@@ -1,10 +1,9 @@
 %addpath 'D:\Dev\Windows Linux\DenseCorrespondences\CPP\mexFindTexturelessRegions\x64\Debug'
-addpath 'D:\Dev\Windows Linux\DenseCorrespondences\CPP\mexFindTexturelessRegions\x64\Release'
+addpath '/home/cel/PERL/Algorithms/DenseCorrespondences/CPP/mexFindTexturelessRegions/x64/Release'
 
 %% Load images
-%img=imread('D:\Dev\Resources\MSc\kermit\images\kermit001.jpg');
-%img=imread('D:\Dev\Resources\MSc\SceauxCastleReduced2\images\100_7106.JPG');
-img=imread('D:\Dev\Resources\MSc\ET\images\et001.jpg');
+
+img=imread('/home/cel/PERL/Algorithms/cnn-registration/img/bbb_left.jpg');
 
 sImg = im2single(img);
 if size(sImg, 3) == 3
